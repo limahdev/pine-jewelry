@@ -1,0 +1,216 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    background: url('img/fog-resize.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.logo-container {
+    text-align: center;
+}
+
+.landing-container {
+    text-align: center;
+}
+
+ul {
+    background: transparent;
+    width: 2.4px;
+    border: 2px solid #bca64d;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+}
+
+ul::before {
+    content: ' ';
+    width: 30px;
+    border-top: 2.4px solid #bca64d;
+    position: absolute;
+    left: 0;
+    top: 7px;
+}
+
+ul::before {
+    content: ' ';
+    width: 30px;
+    border-bottom: 2.4px solid #bca64d;
+    position: absolute;
+    left: 0;
+    top: 7px;
+}
+
+li {
+    display: none;
+}
+
+h1 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.landing-container p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+i.fa.fa-play-circle{
+    color: #fff;
+    font-size: 36px;
+}
+
+.landing-container h2 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 7px;
+}
+
+
+.icons-container {
+    color: #b0b0b0;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.entry-container {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    background-color: #bca64d;
+    padding: 5px;
+}
+
+.sub-entry-container h2 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sub-entry-container p {
+    color: #666;
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.inverted-container p {
+    text-align: center;
+}
+
+.inverted-container h2 {
+    text-align: center;
+}
+
+.grid-row-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.grid-row-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gallery-container {
+    background-color: #103341;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.gallery-container h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.gallery-container h3 {
+    color: #d9d9d9;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.gallery-container p {
+    color: #999;
+    font-size: 11px;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+
+.closing-container h2 {
+    color: #999;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.closing-container h4 {
+    color: #666;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.closing-container p {
+    color: #999;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.closing-button {
+    background: #bca64d;
+    color: #fff;
+    padding: 10px;
+}
+
+.button {
+    background: #666;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.ghost-button {
+    color: #999;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
+    border: 1px solid #666;
+    padding: 10px;
+}
+
+.footer-mailing {
+    display: none;
+}
+
+.footer-copyright {
+    color: #999;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.footer-copyright p {
+    text-align: center;
+}
+
+.social-media-icons {
+    display: block;
+    color: #bca64d;
+    margin: 0 auto;
+    width: 30%;
+}
