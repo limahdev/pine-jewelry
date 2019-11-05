@@ -150,12 +150,13 @@ i.fa.fa-play-circle{
 .grid-row-2 {
     display: flex;
     justify-content: space-evenly;
+    padding-bottom: 10px;
 }
 
 .gallery-container {
     background-color: #103341;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    /*padding-top: 5px;*/
+    /*padding-bottom: 5px;*/
 }
 
 .gallery-container h2 {
@@ -163,6 +164,7 @@ i.fa.fa-play-circle{
     font-size: 20px;
     font-weight: 400;
     text-align: center;
+    padding: 20px 3px 20px 3px;
 }
 
 .gallery-container h3 {
@@ -180,7 +182,7 @@ i.fa.fa-play-circle{
     text-align: center;
 }
 
-.closing {
+.closing-container {
     background: url('img/pine-cone-resize.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -260,6 +262,10 @@ input.ghost-button {
 
 .footer-copyright p {
     text-align: center;
+}
+
+span {
+    display: none;
 }
 
 .social-media-icons {
